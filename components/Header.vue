@@ -27,10 +27,6 @@
     </div>
   </header>
 </template>
-<script>
-const app = new SpeRuntime.Application()
-app.start('/scene.json')
-</script>
 
 <style lang="scss" scoped>
 header {

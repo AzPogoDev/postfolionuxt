@@ -1,19 +1,18 @@
 @font-face {
   font-family: 'BasierCircle';
   font-weight: normal;
-  src: local('BasierCircle'), url('/fonts/basiercircle-regular-webfont.woff') format('woff');
+  src: local('BasierCircle'),
+    url('/fonts/basiercircle-regular-webfont.woff') format('woff');
 }
 
 @font-face {
-    font-family: 'BasierCircleBold';
-    font-weight: bold;
-    src: local('BasierCircle'), url('/fonts/basiercircle-bold-webfont.woff')  format('woff');
-  }
-
+  font-family: 'BasierCircleBold';
+  font-weight: bold;
+  src: local('BasierCircle'),
+    url('/fonts/basiercircle-bold-webfont.woff') format('woff');
+}
 
 body {
-  font-family: 'BasierCircleBold', system-ui, -apple-system, BlinkMacSystemFont,
-    'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
   color: #ffffff;
   margin: 0;
@@ -21,6 +20,22 @@ body {
   background: #111111;
 }
 
+p {
+  font-family: 'BasierCircle';
+}
+h1,
+h3,
+H4,
+h2,
+h5,
+h6 {
+  font-family: 'BasierCircleBold';
+}
+
+span {
+  color: #38e2b3;
+}
+
 a {
-    color: inherit;
+  color: inherit;
 }

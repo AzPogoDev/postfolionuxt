@@ -1,7 +1,7 @@
 <template>
   <div class="hero__Header">
    
-    <h1><span>Hi</span>, this is spline</h1>
+    <h1><span>Hi</span>, it's me... Henri</h1>
   </div>
 </template>
 
